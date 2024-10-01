@@ -26,21 +26,21 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_asm/meshes/base_link.STL" />
+          filename="../meshes/base_link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0 1 0 1" />
+          rgba="0 1 1 0.5" />
       </material>
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0 0 0.01"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://urdf_asm/meshes/base_link.STL" />
+        <!-- <mesh filename="../meshes/base_link.STL" /> -->
+        <box size="0.07 0.07 0.02" />
       </geometry>
     </collision>
   </link>
@@ -66,21 +66,21 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_asm/meshes/Upper0_Link.STL" />
+          filename="../meshes/Upper0_Link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="1 0 0 1" />
+          rgba="1 0 0 0.5" />
       </material>
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0.032 0.012 0.0"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://urdf_asm/meshes/Upper0_Link.STL" />
+        <!-- <mesh filename="../meshes/Upper0_Link.STL" /> -->
+        <box size="0.05 0.013 0.013" />
       </geometry>
     </collision>
   </link>
@@ -124,21 +124,21 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_asm/meshes/Lower0_Link.STL" />
+          filename="../meshes/Lower0_Link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0 0 1 1" />
+          rgba="0 0 1 0.5" />
       </material>
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0 -0.01 0.015"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://urdf_asm/meshes/Lower0_Link.STL" />
+        <!-- <mesh filename="../meshes/Lower0_Link.STL" /> -->
+        <box size="0.01 0.01 0.08" />
       </geometry>
     </collision>
   </link>
@@ -182,21 +182,21 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_asm/meshes/Upper1_Link.STL" />
+          filename="../meshes/Upper1_Link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="1 0 0 1" />
+          rgba="1 0 0 0.5" />
       </material>
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0.032 0.012 0.0"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://urdf_asm/meshes/Upper1_Link.STL" />
+        <!-- <mesh filename="../meshes/Upper1_Link.STL" /> -->
+          <box size="0.05 0.013 0.013" />
       </geometry>
     </collision>
   </link>
@@ -240,21 +240,21 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_asm/meshes/Lower1_Link.STL" />
+          filename="../meshes/Lower1_Link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0 0 1 1" />
+          rgba="0 0 1 0.5" />
       </material>
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0 -0.01 0.015"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://urdf_asm/meshes/Lower1_Link.STL" />
+        <!-- <mesh filename="../meshes/Lower1_Link.STL" /> -->
+        <box size="0.01 0.01 0.08" />
       </geometry>
     </collision>
   </link>
@@ -297,22 +297,22 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://urdf_asm/meshes/Upper2_Link.STL" />
+        <mesh 
+          filename="../meshes/Upper2_Link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="1 0 0 1" />
+          rgba="1 0 0 0.5" />
       </material>
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0.032 0.012 0.0"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://urdf_asm/meshes/Upper2_Link.STL" />
+        <!-- <mesh filename="../meshes/Upper2_Link.STL" /> -->
+          <box size="0.05 0.013 0.013" />
       </geometry>
     </collision>
   </link>
@@ -356,21 +356,21 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_asm/meshes/Lower2_Link.STL" />
+          filename="../meshes/Lower2_Link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0 0 1 1" />
+          rgba="0 0 1 0.5" />
       </material>
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0 -0.01 0.015"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://urdf_asm/meshes/Lower2_Link.STL" />
+        <!-- <mesh filename="../meshes/Lower2_Link.STL" /> -->
+        <box size="0.01 0.01 0.08" />
       </geometry>
     </collision>
   </link>
@@ -414,21 +414,21 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_asm/meshes/Upper3_Link.STL" />
+          filename="../meshes/Upper3_Link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="1 0 0 1" />
+          rgba="1 0 0 0.5" />
       </material>
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0.032 0.012 0.0"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://urdf_asm/meshes/Upper3_Link.STL" />
+        <!-- <mesh filename="../meshes/Upper3_Link.STL" /> -->
+        <box size="0.05 0.013 0.013" />
       </geometry>
     </collision>
   </link>
@@ -472,21 +472,21 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_asm/meshes/Lower3_Link.STL" />
+          filename="../meshes/Lower3_Link.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0 0 1 1" />
+          rgba="0 0 1 0.5" />
       </material>
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
+        xyz="0 -0.01 0.015"
         rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="package://urdf_asm/meshes/Lower3_Link.STL" />
+        <!-- <mesh filename="../meshes/Lower3_Link.STL" /> -->
+        <box size="0.01 0.01 0.08" />
       </geometry>
     </collision>
   </link>
